@@ -1,11 +1,9 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {MyFirstComponent} from "./my.first.component";
-import {MySecondComponent} from "./my.second.component";
+import {StudentComponent} from "./component/student.component";
 
 const routes: Routes = [
-  {path: '', component: MyFirstComponent},
-  {path: 'second', component: MySecondComponent}
+  {path: '', component: StudentComponent},
 ];
 
 @NgModule({

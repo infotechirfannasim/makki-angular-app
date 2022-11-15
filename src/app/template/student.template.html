@@ -1,0 +1,18 @@
+<span style="color: red;">Student Component</span>
+<br/>
+<span> The name is: {{name}} </span>
+<br/>
+<span> The sum is: {{sum}} </span>
+<br/>
+<button (click)="sumMethod()">Do Sum</button>
+<br/>
+<span> The Counting is: {{counting}} </span>
+<br/>
+<button (click)="doCounting()">Do Counting</button>
+<button (click)="resetCounting()">Reset Counting</button>
+<br/>
+<input type="number" [(ngModel)]="num1"/>
+<input type="number" [(ngModel)]="num2"/>
+<br/>
+<button (click)="doSum()">Do sum</button>
+<span style="color: red; font-weight: bold;"> The sum is: {{sum1}} </span>
